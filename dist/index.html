@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>Benefacto Consulting</title>
-  <link rel="stylesheet" crossorigin href="/BenefactoConsulting/assets/index-B1rdQnVt.css">
+  <link rel="stylesheet" crossorigin href="/BenefactoConsulting/assets/index-Kg9ExiUq.css">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
   </nav>
 
   <!-- Social Links -->
-  <div class="fixed left-0 top-1/2 transform -translate-y-1/2 z-10 flex flex-col space-y-4 p-2">
+  <div class="fixed left-0 xs:top-[55%] lg:top-96 transform -translate-y-1/2 z-10 flex flex-col space-y-4 p-2">
     <!-- WhatsApp -->
     <a href="#"
       class="group relative flex items-center bg-black text-green-600 p-2 rounded-r-full transition-all duration-300">
@@ -92,11 +92,11 @@
   <div id="home" class="relative w-full h-[92vh] mt-16 overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 w-full h-full bg-cover bg-no-repeat bg-center md:bg-center"
-      style="background-image: url('/BenefactoConsulting/assets/home-bg-DWcip78H.jpeg');">
+      style="background-image: url('/BenefactoConsulting/assets/home-bg-DGAQU0KV.jpeg');">
     </div>
 
     <!-- Text Content (Bottom Right) -->
-    <div class="animate__animated animate__backInRight absolute bottom-10 right-10 text-white text-right px-6">
+    <div class="animate__animated animate__backInRight absolute bottom-10 xs:right-6 lg:right-10 text-white text-right xs:px-0 lg:px-6">
       <h1 class="text-4xl md:text-6xl font-bold">GROW YOUR</h1>
       <h2 class="text-3xl md:text-5xl font-bold mt-2">LIFE & BUSINESS</h2>
       <p class="text-lg md:text-2xl font-light mt-4">With <span class="font-bold">Vijay Singh</span></p>
@@ -414,7 +414,7 @@
       try {
         const response = await fetch("https://raw.githubusercontent.com/ItzzAkib07/BenefactoConsulting/refs/heads/main/blogs.json");
         if (!response.ok) throw new Error("Failed to load blogs.json");
-        
+
         const blogs = await response.json();
         const blogSlider = document.getElementById("blog-slider");
         const modal = document.getElementById("blog-modal");
